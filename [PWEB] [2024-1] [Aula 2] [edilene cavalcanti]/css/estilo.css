@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.barra-superior {
+    border: solid 1px #000000;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.barra-de-busca {
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-de-acoes {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.bt-primario {
+    background-color: #777777;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.bt-primario:hover {
+    background-color: #000000;
+}
+
+.bt-secundario {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.bt-secundario:hover {
+    background-color: #888888;
+}
+
+.avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+    margin-right: 3px;
+
+    border: solid 1px #888888;
+}
+
+.avatar:hover {
+    filter: brightness(4%);
+}
+
+input {
+    border-radius: 100px;
+    height: 35px;
+    border: 4px;
+    background-color: rgb(240, 239, 239);
+    margin-left: 1px;
+
+}
+
+.campo-texto {
+    text-indent: 20px;
+    /* Move o ponto de inserção para a direita */
+}
+
+
+.placeholder::placeholder {
+    text-align: left;
+    color: #999;
+    padding-left: 10px;
+}
+
+.campo-com-imagem {
+    position: relative;
+}
+
+.campo-com-imagem input[type="text"] {
+    padding-left: 40px;
+    /* Ajusta o padding para acomodar a imagem */
+    background-image: url("");
+    background-size: 30px 30px;
+    /* Ajusta o tamanho da imagem */
+    background-position: 5px center;
+    /* Ajusta a posição da imagem */
+    background-repeat: no-repeat;
+    /* Evita que a imagem seja repetida */
+
+}
+
+
+img {
+    height: 730px;
+}
+
+#ifallogo {
+    height: 50px;
+}
+
+/*------> CONTEUDO___________________________________________*/
+.conteudo {
+    border: solid 1px #000000;
+    width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.titulo-principal {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+
+    margin-left: 20px;
+    margin-bottom: -500px;
+}
+
+.info {
+    font-family: sans-serif;
+}
+
+#claro {
+    border: #ffffffff;
+    background-color: #ffffffff;
+}
+
+#claro:hover {
+    filter: brightness(60%);
+}
+
+.linha1 {
+    font-size: 16px;
+    margin-bottom: -100px;
+}
+
+.linha2 {
+    font-size: 14px;
+}
+
+.claro {
+    color: #777777;
+}
+
+.escuro {
+    color: #222222;
+}
+#padraic{
+    margin-top: -10px;
+}
+
+.palmas {
+    height: 25px;
+    display: flex;
+    margin-top: 25px;
+}
+.quantidade-curt{
+    margin-left: 30px;
+    margin-top: -18px;
+}
+
+.balao {
+    height: 25px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: -23px;
+}
+.quantidade-coment{
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.bandeira{
+    height: 25px;
+}
+.play{
+    height: 25px;
+}
+.compart{
+    height: 25px;
+}
+.compartilhamento{
+    margin-left: 700px;
+    margin-top: -23px;
+    gap: 10px;
+}
